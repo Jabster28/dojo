@@ -1,0 +1,23 @@
+version = 1
+
+test_patterns = [
+    "src/**/*.ts",
+    "test/**/*.ts"
+]
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  module_system = "es-modules"
+  dialect = "typescript"
+  environment = [
+    "nodejs",
+    "browser"
+  ]
+  style_guide = "standard"
