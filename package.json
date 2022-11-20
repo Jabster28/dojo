@@ -20,7 +20,7 @@
     "posttest": "yarn run check"
   },
   "devDependencies": {
-    "@types/node": "^13.11.1",
+    "@types/node": "^18.0.0",
     "gts": "^2.0.2",
     "jsdoc": "^3.6.5",
     "ts-node-dev": "^1.0.0-pre.62",
