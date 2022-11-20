@@ -23,7 +23,7 @@
     "@types/node": "^13.11.1",
     "gts": "^2.0.2",
     "jsdoc": "^3.6.5",
-    "ts-node-dev": "^1.0.0-pre.62",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
